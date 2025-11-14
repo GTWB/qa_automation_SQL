@@ -26,5 +26,15 @@ All queries were executed on the `qa_testing` database using PostgreSQL.
 | **LIKE / BETWEEN / IN** | Pattern, range, and list filters.         | `WHERE price BETWEEN 50 AND 200;`    |
 | **AND / OR / NOT**      | Combine or negate conditions.             | `WHERE city='London' AND price>100;` |
 
-_Database:_ PostgreSQL – `qa_testing`  
-_Tooling:_ VS Code + pgAdmin 4
+## 🧱 Tech Stack
+
+- **Database:** PostgreSQL (`qa_testing` schema)
+- **Client:** pgAdmin 4 / psql
+- **Editor:** VS Code
+
+To create the schema locally:
+
+```sql
+-- Run this file in your PostgreSQL instance:
+qa_testing_schema.sql
+```
